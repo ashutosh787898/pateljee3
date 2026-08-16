@@ -1,5 +1,5 @@
 <?php
-require_once 'includes/config.php';
+require_once __DIR__ . '/../includes/config.php';
 
 // Return JSON even on fatal errors
 set_exception_handler(function(Throwable $e) {

@@ -1,5 +1,5 @@
 <?php
-require_once __DIR__ . '/jalwa-config.php';
+require_once __DIR__ . '/../includes/jalwa-config.php';
 require_once __DIR__ . '/../includes/config.php';
 
 function jalwaGenerateRandom(): string
